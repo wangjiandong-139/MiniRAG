@@ -3,7 +3,7 @@
 ![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)
 
 
-This repository hosts the code of the paper: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**
+The Code Repository: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**
 <br />  
 
 [Tianyu Fan](https://tianyufan0504.github.io/), [Jingyuan Wang](), [Xubin Ren](https://ren-xubin.github.io/), [Chao Huang](https://sites.google.com/view/chaoh)* (*Correspondence)<br />  
