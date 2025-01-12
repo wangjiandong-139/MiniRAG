@@ -4,7 +4,6 @@
 
 
 This repository hosts the code of the paper: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**
-
 <br />  
 
 [Tianyu Fan](https://tianyufan0504.github.io/), [Jingyuan Wang](), [Xubin Ren](https://ren-xubin.github.io/), [Chao Huang](https://sites.google.com/view/chaoh)* (*Correspondence)<br />  
@@ -54,6 +53,7 @@ Or, use the code in `./main.py` to initialize MiniRAG.
 | Model | NaiveRAG | | GraphRAG | | LightRAG | | **MiniRAG** | |
 |-------|----------|----------|-----------|----------|-----------|----------|----------|----------|
 | | acc↑ | err↓ | acc↑ | err↓ | acc↑ | err↓ | acc↑ | err↓ |
+| LiHua-World | | | | | | | | |
 | Phi-3.5-mini-instruct | 41.22% | 23.20% | / | / | 39.81% | 25.39% | **53.29%** | 23.35% |
 | GLM-Edge-1.5B-Chat | 42.79% | 24.76% | / | / | 35.74% | 25.86% | **52.51%** | 25.71% |
 | Qwen2.5-3B-Instruct | 43.73% | 24.14% | / | / | 39.18% | 28.68% | **48.75%** | 26.02% |
