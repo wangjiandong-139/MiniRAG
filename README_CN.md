@@ -104,7 +104,7 @@ python ./reproduce/Step_1_QA.py
 
 ## 数据集: LiHua-World
 
-LiHua-World 是一个专门为本地 RAG 场景设计的数据集，包含了一个名为 LiHua 的虚拟用户一年内的聊天记录。该数据集包含三种类型的问题：单跳、多跳和总结性问题，每个问题都配有人工标注的答案和支持文档。
+LiHua-World 是一个专门为本地 RAG 场景设计的数据集，包含了一个名为 LiHua 的虚拟用户一年内的聊天记录。该数据集包含三种类型的问题：单跳、多跳和总结性问题，每个问题都配有人工标注的答案和支持文档。更多细节请参考 [LiHua-World 数据集的 README](./dataset/LiHua-World/README_CN.md)。
 
 
 

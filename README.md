@@ -107,7 +107,7 @@ All the code can be found in the `./reproduce` directory.
 
 ## Dataset: LiHua-World
 
-LiHua-World is a dataset specifically designed for on-device RAG scenarios, containing one year of chat records from a virtual user named LiHua. The dataset includes three types of questions: single-hop, multi-hop, and summary, with each question paired with manually annotated answers and supporting documents.
+LiHua-World is a dataset specifically designed for on-device RAG scenarios, containing one year of chat records from a virtual user named LiHua. The dataset includes three types of questions: single-hop, multi-hop, and summary, with each question paired with manually annotated answers and supporting documents. For more details, please refer to the [README of LiHua-World](./dataset/LiHua-World/README.md) dataset.
 
 
 
