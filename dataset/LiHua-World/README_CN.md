@@ -1,5 +1,7 @@
 # LiHua-World 数据集
 
+![LiHuaWorld](https://files.mdnice.com/user/87760/39923168-2267-4caf-b715-7f28764549de.jpg)
+
 LiHua-World 是一个专门为本地 RAG (检索增强生成)场景设计的数据集。该数据集包含了一个名为 LiHua 的虚拟用户一年内的聊天记录。
 
 ## 数据集特点
