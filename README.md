@@ -9,6 +9,9 @@ The Code Repository: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Gen
 [Tianyu Fan](https://tianyufan0504.github.io/), [Jingyuan Wang](), [Xubin Ren](https://ren-xubin.github.io/), [Chao Huang](https://sites.google.com/view/chaoh)* (*Correspondence)<br />  
 </div>
 
+<a href='https://arxiv.org/abs/2501.06713'><img src='https://img.shields.io/badge/arXiv-2501.06713-b31b1b'>
+
+
 ## 🌍 README Translations
 
 [中文说明](./README_CN.md)
