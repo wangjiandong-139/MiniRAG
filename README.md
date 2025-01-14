@@ -84,7 +84,10 @@ All the code can be found in the `./reproduce` directory.
 ```python
 ├── dataset
 │   └── LiHua-World
+│       ├── README.md
+│       ├── README_CN.md
 │       ├── data
+│       │   ├── LiHuaWorld.zip
 │       └── qa
 │           ├── query_set.csv
 │           └── query_set.json
@@ -104,12 +107,12 @@ All the code can be found in the `./reproduce` directory.
 ├── reproduce
 │   ├── Step_0_index.py
 │   └── Step_1_QA.py
-├── exp.py
 ├── LICENSE
 ├── main.py
-├── main.sh
 ├── README.md
-└── requirements.txt
+├── README_CN.md
+├── requirements.txt
+├── setup.py
 ```
 
 ## Dataset: LiHua-World
@@ -128,6 +131,15 @@ You may refer to related work that serves as foundations for our framework and c
 ## 🌟Citation
 
 ```python
+@misc{fan2025miniragextremelysimpleretrievalaugmented,
+      title={MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation}, 
+      author={Tianyu Fan and Jingyuan Wang and Xubin Ren and Chao Huang},
+      year={2025},
+      eprint={2501.06713},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2501.06713}, 
+}
 ```
 
 **Thank you for your interest in our work!**

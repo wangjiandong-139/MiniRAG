@@ -79,7 +79,10 @@ python ./reproduce/Step_1_QA.py
 ```python
 ├── dataset
 │   └── LiHua-World
+│       ├── README.md
+│       ├── README_CN.md
 │       ├── data
+│       │   ├── LiHuaWorld.zip
 │       └── qa
 │           ├── query_set.csv
 │           └── query_set.json
@@ -99,12 +102,12 @@ python ./reproduce/Step_1_QA.py
 ├── reproduce
 │   ├── Step_0_index.py
 │   └── Step_1_QA.py
-├── exp.py
 ├── LICENSE
 ├── main.py
-├── main.sh
 ├── README.md
-└── requirements.txt
+├── README_CN.md
+├── requirements.txt
+├── setup.py
 ```
 
 ## 数据集: LiHua-World
@@ -121,6 +124,15 @@ LiHua-World 是一个专门为本地 RAG 场景设计的数据集，包含了一
 ## 🌟引用
 
 ```python
+@misc{fan2025miniragextremelysimpleretrievalaugmented,
+      title={MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation}, 
+      author={Tianyu Fan and Jingyuan Wang and Xubin Ren and Chao Huang},
+      year={2025},
+      eprint={2501.06713},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2501.06713}, 
+}
 ```
 
 **感谢您对我们工作的关注！**
