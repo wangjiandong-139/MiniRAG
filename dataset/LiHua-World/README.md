@@ -1,5 +1,7 @@
 # LiHua-World Dataset
 
+![LiHuaWorld](https://files.mdnice.com/user/87760/39923168-2267-4caf-b715-7f28764549de.jpg)
+
 [中文说明](./README_CN.md)
 
 

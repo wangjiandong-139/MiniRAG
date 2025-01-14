@@ -3,7 +3,7 @@
 ![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)
 
 
-This repository hosts the code of the paper: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**
+The Code Repository: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation**
 <br />  
 
 [Tianyu Fan](https://tianyufan0504.github.io/), [Jingyuan Wang](), [Xubin Ren](https://ren-xubin.github.io/), [Chao Huang](https://sites.google.com/view/chaoh)* (*Correspondence)<br />  
@@ -19,7 +19,10 @@ MiniRAG is an extremely simple retrieval-augmented generation framework that ena
 ## Abstract
 The growing demand for efficient and lightweight Retrieval-Augmented Generation (RAG) systems has highlighted significant challenges when deploying Small Language Models (SLMs) in existing RAG frameworks. Current approaches face severe performance degradation due to SLMs' limited semantic understanding and text processing capabilities, creating barriers for widespread adoption in resource-constrained scenarios. To address these fundamental limitations, we present **MiniRAG**, a novel RAG system designed for extreme simplicity and efficiency. **MiniRAG** introduces two key technical innovations: (1) a semantic-aware heterogeneous graph indexing mechanism that combines text chunks and named entities in a unified structure, reducing reliance on complex semantic understanding, and (2) a lightweight topology-enhanced retrieval approach that leverages graph structures for efficient knowledge discovery without requiring advanced language capabilities. Our extensive experiments demonstrate that **MiniRAG** achieves comparable performance to LLM-based methods even when using SLMs while requiring only 25\% of the storage space. Additionally, we contribute a comprehensive benchmark dataset LiHua-World for evaluating lightweight RAG systems under realistic on-device scenarios with complex queries. 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f73f5a2bea20270d7f2554628cf57b945eaea5cb
 ## MiniRAG Framework
 
 ![MiniRAG](https://files.mdnice.com/user/87760/02baba85-fa69-4223-ac22-914fef7120ae.jpg)
@@ -114,6 +117,8 @@ All the code can be found in the `./reproduce` directory.
 ```
 
 ## Dataset: LiHua-World
+
+![LiHuaWorld](https://files.mdnice.com/user/87760/39923168-2267-4caf-b715-7f28764549de.jpg)
 
 LiHua-World is a dataset specifically designed for on-device RAG scenarios, containing one year of chat records from a virtual user named LiHua. The dataset includes three types of questions: single-hop, multi-hop, and summary, with each question paired with manually annotated answers and supporting documents. For more details, please refer to the [README of LiHua-World](./dataset/LiHua-World/README.md) dataset.
 
