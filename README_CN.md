@@ -128,14 +128,11 @@ LiHua-World 是一个专门为本地 RAG 场景设计的数据集，包含了一
 ## 🌟引用
 
 ```python
-@misc{fan2025miniragextremelysimpleretrievalaugmented,
-      title={MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation}, 
-      author={Tianyu Fan and Jingyuan Wang and Xubin Ren and Chao Huang},
-      year={2025},
-      eprint={2501.06713},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2501.06713}, 
+@article{fan2025minirag,
+  title={MiniRAG: Towards Extremely Simple Retrieval-Augmented Generation},
+  author={Fan, Tianyu and Wang, Jingyuan and Ren, Xubin and Huang, Chao},
+  journal={arXiv preprint arXiv:2501.06713},
+  year={2025}
 }
 ```
 
