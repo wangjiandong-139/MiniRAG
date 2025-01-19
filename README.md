@@ -14,7 +14,7 @@ The Code Repository: **MiniRAG: Towards Extremely Simple Retrieval-Augmented Gen
 
 ## 🌍 README Translations
 
-[中文说明](./README_CN.md)
+[中文说明](./README_CN.md) | [日本語](./README_JA.md)
 
 ## TLDR
 MiniRAG is an extremely simple retrieval-augmented generation framework that enables small models to achieve good RAG performance through heterogeneous graph indexing and lightweight topology-enhanced retrieval.
