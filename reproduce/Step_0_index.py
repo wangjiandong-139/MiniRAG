@@ -14,6 +14,7 @@ from minirag.llm import gpt_4o_mini_complete, hf_model_complete, hf_embedding,op
 from minirag.utils import EmbeddingFunc
 from transformers import AutoModel,AutoTokenizer
 from datetime import datetime
+from huggingface_hub import snapshot_download
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
@@ -54,6 +55,19 @@ print("USING WORKING DIR:", WORKING_DIR)
 if not os.path.exists(WORKING_DIR):
     os.mkdir(WORKING_DIR)
 
+# 下载模型到本地
+local_model_path = snapshot_download(
+    repo_id="sentence-transformers/all-MiniLM-L6-v2",
+    local_dir="./models",
+    ignore_patterns=["*.msgpack", "*.h5", "*.safetensors"]
+)
+
+# 从本地加载模型
+tokenizer = AutoTokenizer.from_pretrained(
+    local_model_path,
+    trust_remote_code=True
+)
+
 rag = MiniRAG(
     working_dir=WORKING_DIR,
     # llm_model_func=hf_model_complete,
@@ -65,7 +79,7 @@ rag = MiniRAG(
         max_token_size=1000,
         func=lambda texts: hf_embedding(
             texts, 
-            tokenizer=AutoTokenizer.from_pretrained(EMBEDDING_MODEL),
+            tokenizer=tokenizer,
             embed_model=AutoModel.from_pretrained(EMBEDDING_MODEL)
         )
     ),
@@ -85,5 +99,5 @@ WEEK_LIST = find_txt_files(DATA_PATH)
 for WEEK in WEEK_LIST:
     id = WEEK_LIST.index(WEEK)
     print(f"{id}/{len(WEEK_LIST)}")
-    with open(WEEK) as f:
+    with open(WEEK, encoding='utf-8') as f:
         rag.insert(f.read())
